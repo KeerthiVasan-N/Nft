@@ -1,0 +1,118 @@
+:root{
+    font-size: 62.5%;
+    font-family: 'Outfit',sans-serif;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(13,27,44);
+}
+h1{
+   color: rgb(226,237,248);
+   margin-left: 0.4rem;
+}
+.foot{
+    border-bottom: 0.8px solid rgb(97, 94, 94,0.4);
+    margin-bottom: 1rem;
+    position: relative;
+}
+.foot{
+    font-weight: 300;
+}
+.before{
+   display: inline-block;
+   width: 2rem;
+   height: 2.5rem;
+}
+.clock{
+    width: 19px;
+    height: 25px;
+}
+.text{
+    position: relative;
+    bottom: 0.4rem;
+}
+.des{
+    color: rgb(91,113,142);
+    font-size: 1.7rem;
+}
+.icon{
+    display: inline-block;
+    width:1.7rem;
+}
+.size{
+    font-size: 1.6rem;
+}
+.flex2{
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+}
+.eth{
+    color:rgb(29,238,233);
+
+    font-weight:500;
+     /* hsl(317, 87%, 40%); */
+}
+.icon{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+}
+.end{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.date{
+    color:rgb(114, 133, 132);
+    font-size: 1rem;
+
+}
+.name{
+    color: white;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+.duration{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.text{
+    text-align: center;
+    /* vertical-align: middle; */
+}
+.text::before{
+    content: url(images/icon-ethereum.svg);
+}
+.duration::before{
+    content: url(images/icon-clock.svg);
+}
+
+.container{
+    width: 34rem;
+    margin: 2rem auto;
+    padding: 1.5rem;
+background-color: rgb(21,39,63);
+border-radius: 12px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+footer p{
+    font-weight: 400;
+    
+    font-size: 1.7rem;
+    margin-left: 2rem;
+}
+.last{
+    align-self: flex-start;
+}
